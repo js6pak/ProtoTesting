@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "protocol": "file:../protocol",
+    "server": "file:../server",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "@types/ws": "^7.2.6",
+    "typescript": "^3.9.7"
+  }
+}

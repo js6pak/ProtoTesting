@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message MessageWrapper {
+  oneof message {
+    HelloRequest HelloRequest = 1;
+    HelloReply HelloReply = 2;
+  }
+}
+
+message HelloRequest { string hello = 1; }
+message HelloReply { string hello = 1; }
